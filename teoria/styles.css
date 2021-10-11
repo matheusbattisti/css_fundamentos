@@ -1,0 +1,196 @@
+/* externo */
+body {
+  padding: 20px;
+}
+
+p {
+  color: green;
+}
+
+/* classe e id */
+.meu-paragrafo {
+  background-color: black;
+}
+
+#titulo-principal {
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+  font-family: Helvetica;
+}
+
+/* todos os eelementos e lista */
+* {
+  font-family: Arial;
+}
+
+p,
+h1 {
+  border-bottom: 1px solid red;
+}
+
+/* Cores */
+.nome-da-cor {
+  color: pink;
+}
+
+.hexa {
+  color: #332245;
+  background-color: #342299;
+}
+
+.rgb {
+  color: rgb(200, 100, 25);
+}
+
+/* fontes */
+.serifada {
+  font-family: Georgia;
+}
+
+.sem-serifa {
+  font-family: Helvetica;
+}
+
+.mono-espacada {
+  font-family: 'Courier New';
+}
+
+/* size e weight */
+.tamanho-fonte-grande {
+  font-size: 30px;
+}
+
+.tamanho-fonte-pequeno {
+  font-size: 8px;
+}
+
+.peso-fonte {
+  font-weight: 700;
+}
+
+/* box model */
+.box-model p {
+  color: #000;
+  border: none;
+}
+
+/* Recurso de box model no CSS */
+.box-model {
+  width: 200px;
+  height: 100px;
+  border: 1px solid blue;
+  padding: 20px 40px;
+  margin: 15px;
+}
+
+/* props de texto */
+.alinhamento {
+  text-align: center;
+}
+
+.transform-maiuscula {
+  text-transform: uppercase;
+}
+
+.transform-minuscula {
+  text-transform: lowercase;
+}
+
+/* Espaçamento de letras e linha */
+.espacamento-texto {
+  line-height: 30px;
+  letter-spacing: 4px;
+  width: 150px;
+}
+
+/* estilo em links */
+.decoration {
+  text-decoration: none;
+}
+
+.visitado:visited {
+  color: orange;
+}
+
+.estilo-hover:hover {
+  background-color: #1292ae;
+}
+
+/* link button */
+.btn {
+  background-color: #34ae43;
+  border: 3px solid #234966;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 7px;
+  display: block;
+  width: 120px;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Listas */
+.sem-estilo {
+  list-style: none;
+}
+
+/* display */
+.inline {
+  width: 50px;
+  height: 50px;
+  background-color: teal;
+  margin: 5px;
+  display: inline-block;
+}
+
+.bloco {
+  display: block;
+}
+
+/* position fixed */
+.elemento-fixo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  background-color: #1292ae;
+  border-bottom: 2px solid #342299;
+  color: #fff;
+  text-align: center;
+}
+
+/* pseudo class */
+.primeiro-elemento p:first-child {
+  color: purple;
+  font-weight: bold;
+}
+
+/* pseudo elementos */
+.primeira-letra::first-letter {
+  font-size: 25px;
+  color: blue;
+  background-color: red;
+  padding: 2px;
+}
+
+/* especifidade */
+h2 {
+  color: red;
+}
+
+.titulo {
+  color: green;
+}
+
+#meu-titulo-preferido {
+  color: blue;
+}
+
+/* important */
+h2 {
+  color: purple !important;
+}
